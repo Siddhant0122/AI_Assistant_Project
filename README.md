@@ -39,7 +39,6 @@ You type (or speak) anything in plain English. The AI classifies your intent int
 - 🍃 MongoDB + Flask-PyMongo
 - 🤖 GPT-4o-mini via RapidAPI
 - 📊 Scikit-learn (Linear Regression)
-- 🔐 bcrypt (password hashing)
 
 **Frontend**
 - ⚛️ React 18 + Vite
@@ -55,7 +54,7 @@ ai-assistant/
 ├── backend/
 │   ├── app.py              # All Flask routes & logic
 │   ├── requirements.txt
-│   ├── .env                # Your secret keys (never commit this)
+│   ├── .env                # Your secret keys
 │   └── .env.example        # Template for others
 ├── frontend/
 │   ├── src/
@@ -73,8 +72,8 @@ ai-assistant/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/ai-assistant.git
-cd ai-assistant
+git clone https://github.com/Siddhant0122/AI_Assistant_Project.git
+cd AI_Assistant_Project
 ```
 
 ### 2. Backend setup
